@@ -1,5 +1,17 @@
+body {
+  background-color: #135e8a;
+}
+
 .outer-container {
   background-color: #d4e5f3;
+  padding: 1rem;
+}
+
+.site-header-container {
+  text-align: center;
+  h1 {
+    letter-spacing: 0.2rem;
+  }
 }
 
 .link-title {
