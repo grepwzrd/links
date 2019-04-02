@@ -4,15 +4,36 @@ body {
 
 .outer-container {
   background-color: #d4e5f3;
+  border: 2px solid #000;
   padding: 1rem;
 }
 
 .site-header-container {
+}
+
+.site-header {
+  letter-spacing: 0.2rem;
   text-align: center;
-  h1 {
-    letter-spacing: 0.2rem;
-  }
 }
 
 .link-title {
+}
+
+.link-list {
+  list-style-type: none;
+}
+
+.link-list-item {
+}
+.link-list-item-container {
+  a {
+    display: inline-block;
+  }
+}
+.link-date {
+  display: inline-block;
+  letter-spacing: 0.13rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0.5rem 1rem;
 }
