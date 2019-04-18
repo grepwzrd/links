@@ -1,9 +1,9 @@
 body {
-  background-color: #135e8a;
+  background-color: #173A47;
 }
 
 .outer-container {
-  background: linear-gradient(-30deg, #135e8a, 10%, #d4e5f3);
+  background: linear-gradient(-30deg, #173A47, 2%, #d4e5f3);
   border: 2px solid #000;
   padding: 1rem;
 }
@@ -31,9 +31,18 @@ body {
   }
 }
 .link-date {
+  color: #173A47;
   display: inline-block;
   letter-spacing: 0.13rem;
   font-size: 0.8rem;
   font-weight: bold;
   margin: 0.5rem 1rem;
+}
+
+a:visited {
+  color: #27637A;
+}
+
+a {
+  color: #01222E;
 }
